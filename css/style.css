@@ -1,0 +1,361 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: #212121;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+nav,
+section,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.page-header {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  border: 0px;
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.hero button:hover,
+.hero button:focus {
+  background: #188ce8;
+}
+.hero > div {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav ul :hover {
+  color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body a {
+  text-decoration: none;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts .item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contacts a {
+  display: block;
+  color: #757575;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contacts a:hover {
+  color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logo > span {
+  color: #2196f3;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.main-nav .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+.specials h2 {
+  display: none;
+}
+.specials h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.specials {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.specials p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.specials-list {
+  display: flex;
+}
+.specials-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+.specials-list .item {
+  display: block;
+  width: 270px;
+  height: 101px;
+}
+.whatwedo {
+  padding-bottom: 94px;
+}
+.whatwedo h2 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.whatwedo-list {
+  display: flex;
+}
+
+.whatwedo-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+.whatwedo-list .item {
+  display: block;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  background: #f5f4fa;
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.team p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team-list {
+  display: flex;
+}
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-list .item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list .item-name {
+  padding: 30px 0px;
+}
+.footer {
+  display: block;
+}
+footer {
+  padding-top: 60px;
+  background: #2f303a;
+  padding-bottom: 60px;
+}
+address p {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+address a {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.footer .logo {
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+}
+.adress-mail {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.sort button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: #f5f4fa;
+  border-style: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.sort button:hover,
+.sort button:focus {
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cards-sort {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.cards-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards-list .item {
+  width: calc((100% - 60px) / 3);
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.cards-list .item:nth-child(3n) {
+  margin-right: 0;
+}
+.cards-list .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.cards-list .item-name {
+  padding: 20px 24px;
+}
+.cards-list .item:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.sort-list {
+  display: flex;
+  justify-content: center;
+}
+.sort-list .item:not(:last-child) {
+  margin-right: 8px;
+}
+.sort {
+  margin-bottom: 34px;
+}
+.portfolio-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+a {
+  color: #212121;
+}
