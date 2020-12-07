@@ -106,21 +106,31 @@ body a {
 .contacts .item:not(:last-child) {
   margin-right: 50px;
 }
-.contacts .mail::before {
-  content: "";
-  background-color: red;
-  height: 8px;
-  width: 12px;
-  margin-right: 10px;
-  display: inline-block;
+.contacts .mail {
+  display: inline-flex;
+  align-items: center;
 }
-.contacts .tel::before {
+.contacts .mail-icon {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+}
+.contacts .tel-icon {
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+/*.contacts .tel::before {
   content: "";
   background-color: red;
   margin-right: 10px;
   width: 10px;
   height: 16px;
+}*/
+.contacts .tel {
   display: inline-flex;
+  align-items: center;
 }
 .contacts .item {
   font-weight: 500;
@@ -139,6 +149,7 @@ body a {
 .contacts a:hover {
   color: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  fill: #2196f3;
 }
 .logo > span {
   color: #2196f3;
@@ -202,6 +213,7 @@ body a {
 }
 .specials-list .item {
   display: block;
+  width: 270px;
 }
 .specials-list .antena::before {
   background-image: url(../img/antenna\ 1.svg);
@@ -296,10 +308,18 @@ body a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: red;
+}
+.social-links .links:hover {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 .social-links {
   padding-bottom: 30px;
+}
+.social-links .icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 .footer {
   display: block;
